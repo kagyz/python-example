@@ -29,6 +29,19 @@ Get your API key at [kagyz.com](https://kagyz.com).
 | `credit_note.py` | `python credit_note.py` | Credit note referencing an invoice |
 | `packing_slip.py` | `python packing_slip.py` | Packing slip with SKUs and weights |
 | `arabic_invoice.py` | `python arabic_invoice.py` | RTL Arabic invoice (SAR currency) |
+| `branded_invoice.py` | `python branded_invoice.py` | Invoice with custom accent color |
+
+## Custom Branding
+
+You can override the accent color per-request using the `branding` field:
+
+```python
+"branding": {
+    "accent_color": "#22c55e"
+}
+```
+
+To add your company logo, upload it via the [Kagyz Dashboard](https://app.kagyz.com/branding). The logo will appear on all generated documents automatically.
 
 ## How It Works
 
