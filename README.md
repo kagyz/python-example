@@ -28,6 +28,7 @@ Get your API key at [kagyz.com](https://kagyz.com).
 | `quote.py` | `python quote.py` | Quote / estimate with expiry date |
 | `credit_note.py` | `python credit_note.py` | Credit note referencing an invoice |
 | `packing_slip.py` | `python packing_slip.py` | Packing slip with SKUs and weights |
+| `timesheet.py` | `python timesheet.py` | Timesheet invoice with hourly billing |
 | `arabic_invoice.py` | `python arabic_invoice.py` | RTL Arabic invoice (SAR currency) |
 | `branded_invoice.py` | `python branded_invoice.py` | Invoice with custom accent color |
 
